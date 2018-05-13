@@ -1,0 +1,58 @@
+body{
+  background: linear-gradient(to right, #212121 , #283c1f);
+  color: #F2F2F2;
+}
+
+h1, h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.container p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.header{
+  font-size: 70px;
+}
+
+.sub-header{
+  font-size: 40px;
+}
+
+.highlight{
+  font-weight: bold;
+}
+
+.link{
+  color: #F2F2F2;
+  text-decoration-color: #3ca557;
+}
+
+.link:hover{
+  color: #3ca557;
+}
+
+.portrait{
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .header{
+    font-size: 50px;
+  }
+
+  .sub-header{
+    font-size: 30px;
+  }
+
+  .container p{
+    font-size: 20px;
+  }
+
+  .portrait{
+    width: 150px;
+  }
+}
