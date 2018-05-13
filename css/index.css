@@ -4,12 +4,12 @@ body{
 }
 
 h1, h3{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
 }
 
 .container p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: lighter;
   font-size: 35px;
 }
@@ -28,6 +28,7 @@ h1, h3{
 
 .link{
   color: #F2F2F2;
+  -webkit-text-decoration-color: #3ca557;
   text-decoration-color: #3ca557;
 }
 
@@ -37,6 +38,13 @@ h1, h3{
 
 .portrait{
   width: 200px;
+}
+
+.palm-tree-icon{
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {
