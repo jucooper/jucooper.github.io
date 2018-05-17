@@ -8,6 +8,18 @@ h1, h3{
   font-weight: bold;
 }
 
+hr{
+  width: 90px;
+  border-color: #3ca557;
+  border-width: 1.5px;
+}
+
+.wrapper{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container p{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: lighter;
@@ -20,6 +32,7 @@ h1, h3{
 
 .sub-header{
   font-size: 40px;
+  font-style: italic;
 }
 
 .highlight{
@@ -42,8 +55,8 @@ h1, h3{
 
 .palm-tree-icon{
   position: absolute;
-  top: 5%;
-  left: 3%;
+  left: 0;
+  top: 10px;
   opacity: 0.5;
 }
 
