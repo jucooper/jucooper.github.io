@@ -10,4 +10,14 @@ $(document).ready(function() {
             }
         });
     });
+
+
+    $( ".rocket-league" ).click( function() {
+      if($('body').hasClass('rocket-league-background')) {
+        $( "body" ).removeClass("rocket-league-background");
+      }
+      else {
+        $( "body" ).addClass("rocket-league-background");
+      }
+    });
 });

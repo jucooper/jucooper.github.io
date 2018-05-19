@@ -1,8 +1,3 @@
-body{
-  background: linear-gradient(to right, #212121 , #283c1f);
-  color: #F2F2F2;
-}
-
 h1, h3{
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
@@ -12,6 +7,20 @@ hr{
   width: 90px;
   border-color: #3ca557;
   border-width: 1.5px;
+}
+
+.initial{
+  background: linear-gradient(to right, #212121 , #283c1f);
+  color: #F2F2F2;
+}
+
+.rocket-league-background{
+  background: url(https://thumbs.gfycat.com/WeepyWateryFoxhound-max-14mb.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size": cover;
+  -o-background-size: cover;
+  background-size": cover;
+  height: 100%;
 }
 
 .wrapper{
@@ -41,6 +50,7 @@ hr{
 
 .link{
   color: #F2F2F2;
+  text-decoration: underline;
   -webkit-text-decoration-color: #3ca557;
   text-decoration-color: #3ca557;
 }
