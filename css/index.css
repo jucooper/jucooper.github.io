@@ -62,7 +62,7 @@ hr {
 }
 
 .portrait {
-  width: 200px;
+  width: 150px;
 }
 
 .palm-tree-icon {
@@ -70,6 +70,10 @@ hr {
   left: 5%;
   top: 5%;
   opacity: 0.5;
+}
+
+.palm-tree-icon img {
+  width: 50px;
 }
 
 .fade {
