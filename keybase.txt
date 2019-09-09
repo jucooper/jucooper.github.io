@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/jucooper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jucooper.com
+  * I am jucooper (https://keybase.io/jucooper) on keybase.
+  * I have a public key with fingerprint 5DDF CDE2 1BC1 E98D AA88  39B7 7E69 1515 2FA6 98F9
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203ddcd1c56cdd95db564738b7d3d0126ff93e529ec5a3a2ed80dafe08d2224a5d0a",
+      "fingerprint": "5ddfcde21bc1e98daa8839b77e6915152fa698f9",
+      "host": "keybase.io",
+      "key_id": "7e6915152fa698f9",
+      "kid": "01010c7583755d5bc78351d66e746b0483f1d25765e94e54892fbd7e53064134fd620a",
+      "uid": "c4f46f11ba874fbc07ec4ad3bcf04e19",
+      "username": "jucooper"
+    },
+    "service": {
+      "hostname": "jucooper.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1568057569,
+  "expire_in": 157680000,
+  "prev": "7a5c927e3a03a42ce0263a2124f3dc87dc64d61188ccc2ae62ab18942fbe464e",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMNxAnicbVJ7UFRVGOdt8nDWYgfDBsZbxkSE9/2AGIOMMILJGIkRaLn3nHPh8ti7
+7i4kT9cKMHCwYBikhxSEY5GzrFYCFhNvkRyL1wAxYNGIhUpT4mgw2F0m/2k6548z
+5/t+v9/3+75z+v3cXbxdyxS9ftepE/dcR3pO5LukF5z+uRiTVFiIRRRjOWjjQLkQ
+WayGHAViERhOkDgFIYAEYFgAocBAiWFpjuIlDlJQS7OyLFCIIQUEGJESSQR5HIoy
+wnlIkiQtMhAXsTBMVoyZyGwyK0arJstAKAOISEICBBJ4KIo8TwkSxyFWIBiCIWWR
+FXhZ0IhZqsXJ0MxJogWFK6oW0y6GDXv/g3/gW9uAY3iKYxjISIDjKYaALIs4mpVw
+mqdkApIMxzJIoBFD8wIpS5BDDIWzNEHRMmTJDd/5G3KAlmlWJghJ5DlalgDOIUCL
+kJKAjNOIcNbNtyCzUcxDGjo7H6iqCZmx0jBMixYoADkH6+zkP4hwoOZpXJNZtapA
+zdUyWVaryRLhZFoLTU7oG0gy/CtikBQj1OaoMQqQ2aKoRiyC0JDAqjhVCYblcYZj
+WCEMQ4dMihkZFCdC65LHteWsgwqcUxMZIJAcokScEmkSIJxktZcjSFqmIOA5CFga
+sgTB8wAAUkQsKUoEL9DaiBDN0ghztnXQqGIRJKf5FDM1TYuSaRSt+WaElfb2pHm4
+uHq7eHm6OT+Yi/dm3YNvB/x0Lk0xRXfadqZV0CsjnbaSjJm+qzdjfnWcT+iS4/q4
+22ljcchrc/lgecmKYy7FUT/z42MiH2vLtsXb2hu3+Sc3dl13zK6m2Hw/L22Y+Lv7
+g1fKzm4Lj2sbOxwAZz1Di8nIS75Hr6SsdfXCyLa7QePU/PsHq3/TP9k+NCnaGsTl
+1RsLf9nnDkdtikveulzuea1WTcoZD7pZ77GdmEzrDUlTWwYM/hd+CT5QeHxB19p6
+IcB+5PXZ0eYntoReaUq6Xlf16tftN/QDKUW7rz0bdjXgvfHelsy3dzS9/FrCqe/3
+Jenrzs90b/2scueW0YZHvcL8k75yfXFmPvepeceXo0PvDHX76FFzlm+eh77KPg0G
+p/c8n3X5i6MDx1BtYNFDuv6zpu2Ph9j37iLRPuqt1ITVTttS88Bz6ZkluorBqfaQ
+Q4apVevoS7PFPyQb/Bdjay7drj7i1lH552TG9HdRK8/sX4numQnp+iilojVtbD2m
+hqzafSd68djgOa6jbaHTXW64ZV8a/njicqohFrHvrv8+PPXJ0J6eiLVIHfnT/j1+
+cnh2fkeYsXDKUH/83uJsV+XF2LU/spYvVucsC3cTl3PmkmqV4B0HPo19uOCRjBdS
++09+GPrtNycdc/ZG1qdvKX7izTZd7ejTUfG3zqzuLaw9nTgSMhx0fz260k1xb6nZ
+lFgWeOZ+f2Cwz7m6jvR/AMbAy60=
+=blSX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jucooper
+
+==================================================================
