@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+    --bg-color: rgb(10 10 10 / 0.97);
+    --text-color: #a3a3a3;
+    --link-color: #a3a3a3;
+}
+
+body.light-mode {
+    --bg-color: rgb(255 255 255 / 0.97);
+    --text-color: #333;
+    --link-color: #007BFF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'JetBrains Mono', monospace, Arial, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 10rem;
+    padding: 0 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    text-transform: lowercase;
+}
+
+.goals {
+    display: block;
+    margin: 0 0 1rem 0;
+}
+
+.pages {
+    display: flex;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    color: var(--link-color);
+    margin: 0 15px 0 0;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.content {
+    max-width: 540px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#toggle-container {
+    display: inline-block;
+}
+
+#toggle-button {
+    width: 40px;
+    height: 30px;
+    background-color: var(--link-color);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+#toggle-button i {
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+#toggle-button .fa-sun {
+    opacity: 0;
+}
+
+body.light-mode #toggle-button .fa-moon {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+body.light-mode #toggle-button .fa-sun {
+    opacity: 1;
+    transform: translateX(0);
+}
