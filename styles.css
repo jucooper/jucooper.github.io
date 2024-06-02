@@ -35,23 +35,13 @@ p {
     text-transform: lowercase;
 }
 
-.goals {
-    display: block;
-    margin: 0 0 1rem 0;
-}
-
-.pages {
-    display: flex;
-    margin: 1rem 1rem 1rem 0;
-}
-
 .icons {
     display: flex;
 }
 
 .icons a {
     color: var(--link-color);
-    margin: 0 15px 0 0;
+    margin: 2rem 1rem 0 0;
     text-decoration: none;
     font-size: 1.5rem;
 }
