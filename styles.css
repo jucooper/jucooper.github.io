@@ -35,6 +35,16 @@ p {
     text-transform: lowercase;
 }
 
+.goals {
+    display: block;
+    margin: 0 0 1rem 0;
+}
+
+.pages {
+    display: flex;
+    margin: 1rem 1rem 1rem 0;
+}
+
 .icons {
     display: flex;
 }
@@ -56,10 +66,41 @@ a {
     font-weight: 600;
 }
 
+#toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
 #toggle-button {
-    background: none;
-    border: none;
+    width: 40px;
+    height: 30px;
+    background-color: var(--link-color);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
     cursor: pointer;
-    font-size: 1.5rem;
-    color: var(--link-color);
+    position: relative;
+}
+
+#toggle-button i {
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+#toggle-button .fa-sun {
+    opacity: 0;
+}
+
+body.light-mode #toggle-button .fa-moon {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+body.light-mode #toggle-button .fa-sun {
+    opacity: 1;
+    transform: translateX(0);
 }
