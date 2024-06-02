@@ -48,6 +48,7 @@ p {
 
 .content {
     max-width: 540px;
+    margin: auto;
 }
 
 a {
